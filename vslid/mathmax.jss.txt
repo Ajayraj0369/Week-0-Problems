@@ -1,0 +1,6 @@
+function isMax(arr) {  let max = Math.max(...arr); console.log(max); 
+ 
+ 
+} 
+ 
+isMax([3,6]) 

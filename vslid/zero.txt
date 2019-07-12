@@ -1,0 +1,17 @@
+function ismatch(x,y){
+  if( x===0 && y ===0 ){
+    if(1/x === -Infinity  && 1/y === -Infinity){
+      return "yes"
+    }
+   else if( 1/x === Infinity && 1/y === Infinity) {
+           return true; 
+           }
+    else return false 
+  }
+else if(isNaN(x) == isNaN(y)){
+  return true;
+}
+else return ( x == y ) ? true : false ;  
+}
+
+console.log(ismatch(NaN,NaN))
